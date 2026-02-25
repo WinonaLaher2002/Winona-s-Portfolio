@@ -5,8 +5,8 @@ A human-centered developer showcase blending soft aesthetics with clean technica
 </p>
 
 <p align="center">
-  <a href="https://your-live-link.com">🌐 Live Demo</a> • 
-  <a href="https://github.com/WinonaLaher2002">💻 GitHub</a>
+  <a href="https://winona-s-portfolio.vercel.app/">🌐 Live Demo</a> • 
+  <a href="https://github.com/WinonaLaher2002/Winona-s-Portfolio">💻 GitHub</a>
 </p>
 
 ---
