@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winona B. Laher - Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/imgs/3dicons-heart-front-color.png">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Just+Another+Hand&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="plaid-background">
+        <div class="container">
+            <!-- HEADER -->
+            <div class="header">
+                <div class="profile-section">
+                    <img src="assets/imgs/img.jpg" alt="Profile" class="profile-img">
+                </div>
+                <div class="header-content">
+                    <h1 class="name">WINONA B. LAHER</h1>
+                    <div class="header-buttons">
+                        <button class="btn" onclick="downloadCV(event)">Download CV</button>
+                        <button class="btn" onclick="contactMe()">Contact me</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MAIN CONTENT -->
+            <div class="main-content">
+                <!-- SIDEBAR -->
+                <div class="sidebar">
+                    <button class="nav-btn active" onclick="showPage('home')">Home</button>
+                    <button class="nav-btn" onclick="showPage('about')">About me</button>
+                    <button class="nav-btn" onclick="showPage('projects')">Projects</button>
+                    <button class="nav-btn" onclick="showPage('contacts')">Contacts</button>
+                </div>
+
+                <!-- CONTENT AREA -->
+                <div class="content-area">
+                    <!-- HOME PAGE -->
+                    <div id="home" class="page active">
+                        <h2>Welcome!</h2>
+                        <p style="font-size: 24px; margin-bottom: 10px;">
+                            Hi, I'm Winnie <span class="welcome-emoji">👋</span>
+                        </p>
+                        <p style="font-size: 20px; font-weight: 600; color: #9e3b3b; margin-bottom: 25px;">
+                            💻 Developer | 🎨 Creative | 🌱 Always Learning
+                        </p>
+                        <p>
+                            I enjoy building apps, exploring new technologies, and mixing creativity with code. 
+                            Currently focused on web development, backend systems, and small game/app projects.
+                        </p>
+
+                        <h3>🛠️ Technical Skills</h3>
+
+                        <h4>💻 Programming Languages</h4>
+                        <div class="skills-grid">                            
+                            <div class="skill-tag">HTML</div>
+                            <div class="skill-tag">CSS</div>                            
+                            <div class="skill-tag">SQL</div>                            
+                            <div class="skill-tag">PHP</div>
+                            <div class="skill-tag">Python</div>
+                            <div class="skill-tag">JavaScript</div>
+                            <div class="skill-tag">TypeScript</div>
+
+
+
+                        </div>
+
+                        <h4>⚛ Frameworks & Libraries</h4>
+                        <div class="skills-grid">
+                            <div class="skill-tag">React.js</div>
+                            <div class="skill-tag">Electron.js</div>
+                        </div>
+
+                        <h4>🗄 Databases</h4>
+                        <div class="skills-grid">
+                            <div class="skill-tag">MySQL</div>
+                            <div class="skill-tag">Supabase (PostgreSQL)</div>
+                            <div class="skill-tag">Firebase Firestore</div>
+                        </div>
+
+                        <h4>🛠 Tools & Platforms</h4>
+                        <div class="skills-grid">
+                            <div class="skill-tag">Node.js</div>
+                            <div class="skill-tag">Supabase</div>
+                            <div class="skill-tag">Firebase</div>
+                            <div class="skill-tag">EmailJS</div>
+                            <div class="skill-tag">Git & GitHub</div>
+                            <div class="skill-tag">Vercel</div>
+                            <div class="skill-tag">InfinityFree</div>
+                            <div class="skill-tag">WordPress</div>
+                            <div class="skill-tag">Visual Studio Code</div>
+                            <div class="skill-tag">Laragon</div>
+                            <div class="skill-tag">MySQL Workbench</div>
+                            <div class="skill-tag">Oracle SQL Developer</div>
+                            <div class="skill-tag">Figma</div>
+                            <div class="skill-tag">Pixso</div>
+                            <div class="skill-tag">Canva</div>
+                            <div class="skill-tag">CapCut</div>
+                            <div class="skill-tag">CodePen</div>
+                            <div class="skill-tag">Godot Engine</div>
+                        </div>
+
+                        <h4>🎨 Design & UI Skills</h4>
+                        <div class="skills-grid">
+                            <div class="skill-tag">Wireframing (Low-Fidelity)</div>
+                            <div class="skill-tag">UI Design</div>
+                            <div class="skill-tag">Visual Hierarchy</div>
+                            <div class="skill-tag">Color Theory Application</div>
+                            <div class="skill-tag">Typography Pairing</div>
+                            <div class="skill-tag">Basic Branding</div>
+                            <div class="skill-tag">Layout Composition</div>
+                        </div>
+
+                        <h4>🎨 Other Skills</h4>
+                        <div class="skills-grid">
+                            <div class="skill-tag">UI/UX Design</div>
+                            <div class="skill-tag">SEO Optimization</div>
+                        </div>
+
+
+                        <h3>🚀 What I'm Working On</h3>
+                        <ul>
+                            <li>To-do list & productivity apps</li>
+                            <li>Full-stack web projects</li>
+                            <li>Learning better backend & clean code practices</li>
+                            <li>Building aesthetic and functional web interfaces</li>
+                        </ul>
+
+                        <p style="text-align: center; font-size: 22px; margin-top: 40px; color: #fd7979;">
+                            ⭐ Thanks for visiting my profile!
+                        </p>
+                    </div>
+
+                    <!-- ABOUT PAGE -->
+                    <div id="about" class="page">
+                        <h2>About Me</h2>
+                        <p style="font-size: 22px; font-weight: 600; color: #9e3b3b; margin-bottom: 20px;">
+                            Hi! I'm Winona B. Laher, also known as LuckyLeaf 🌱
+                        </p>
+                        <p>
+                            I'm a front-end developer and UI/UX–focused web designer who enjoys creating soft, 
+                            aesthetic, and functional web interfaces. I love turning ideas into clean layouts and 
+                            interactive experiences that feel smooth and intuitive.
+                        </p>
+                        
+                        <div class="highlight-box">
+                            <p>
+                                My main focus is on building user-friendly websites — from layout structure and 
+                                styling to thoughtful interactions. I believe good design goes beyond visuals; 
+                                it should feel comfortable, clear, and easy to use.
+                            </p>
+                        </div>
+
+                        <h3>✨ My Design Philosophy</h3>
+                        <p>
+                            My creative style is inspired by pastel color palettes, cozy themes, handwritten 
+                            elements, and nature visuals. I aim to design interfaces that feel warm, calming, 
+                            and welcoming — like a gentle and safe space on the internet 🌸
+                        </p>
+
+                        <h3>📚 Continuous Learning</h3>
+                        <p>
+                            I'm continuously learning and improving my skills in front-end development, UI/UX 
+                            principles, and modern design systems through personal projects and experiments. 
+                            Every project I create is part of my growth journey as both a designer and a developer.
+                        </p>
+
+                        <h3>🎯 What I Bring</h3>
+                        <ul>
+                            <li>Clean, semantic HTML and well-structured CSS</li>
+                            <li>Responsive design that works across all devices</li>
+                            <li>Attention to detail in spacing, typography, and colors</li>
+                            <li>User-centered thinking in every design decision</li>
+                            <li>Passion for creating delightful user experiences</li>
+                        </ul>
+
+                        <p style="margin-top: 30px;">
+                            Every line of code I write and every pixel I place is a step toward becoming a better 
+                            developer and designer. I'm excited to keep growing, learning, and creating beautiful 
+                            things on the web! ✨
+                        </p>
+                    </div>
+
+                   <!-- PROJECTS PAGE -->
+                    <div id="projects" class="page">
+                        <h2>My Projects</h2>
+                        <p style="margin-bottom: 30px;">
+                            Some of my recent works and personal projects ✨
+                        </p>
+
+                        <div class="project-card">
+                            <h3>🍬 My Sugar Care</h3>
+                            <p>
+                                My Sugar Care is a calming blood sugar tracking web app built with HTML, CSS, and JavaScript. Designed during a personal health journey, it focuses on gentle feedback, stress-free tracking, and a cozy user experience—reminding users that consistency and self-compassion matter more than perfect numbers.
+                            </p>
+                            <div class="project-tags">
+                              <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://my-sugar-care.vercel.app/" class="project-link" target="_blank">
+                                    <span class="link-icon">🔗</span> Live Demo
+                                </a>
+                                <a href="https://github.com/WinonaLaher2002/My-Sugar-Care.git" class="project-link" target="_blank">
+                                    <span class="link-icon">💻</span> GitHub
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <h3>🎶 Vinyl Music Player</h3>
+                            <p>
+                             A front-end music player project created using HTML and CSS. This application focuses on user interface design and layout styling, simulating a vinyl-themed music experience with interactive visual elements.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                
+                            </div>
+                            <div class="project-links">
+                                <a href="https://vinvylmusicplayer.vercel.app/" class="project-link" target="_blank">
+                                    <span class="link-icon">🔗</span> Live Demo
+                                </a>
+                                <a href="https://github.com/WinonaLaher2002/vinvylmusicplayer.git" class="project-link" target="_blank">
+                                    <span class="link-icon">💻</span> GitHub
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <h3>📚 Library Management System (Python)</h3>
+                            <p>
+                               A Python-based system developed to manage library records efficiently. It includes features such as adding, updating, searching, and deleting book data, showcasing CRUD operations, program logic, and fundamental backend concepts.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Python tk</span>
+                                <span class="tag">SQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="" class="project-link" target="_blank">
+                                    <span class="link-icon">🔗</span> Live Demo
+                                </a>
+                                <a href="https://github.com/WinonaLaher2002/LibraryManagementSystem.git" class="project-link" target="_blank">
+                                    <span class="link-icon">💻</span> GitHub
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <h3>📖 My StudySet Go PH</h3>
+                            <p>
+                                A JavaScript-based learning tool designed to help users organize and review study materials. The project demonstrates DOM manipulation, interactive features, and basic logic handling to support productivity and self-learning.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">React Js</span>
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <span class="link-icon">🔗</span> Live Demo
+                                </a>
+                                <a href="https://github.com/WinonaLaher2002/My-StudySetGoPh.git" class="project-link" target="_blank">
+                                    <span class="link-icon">💻</span> GitHub
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <h3>🗄️ E-Commerce Shop for Fatimanians Technocrats </h3>
+                            <p>
+                                Full E-shop (Fatimanians Technocrats version) website using pure HTML, CSS, PHP, and MySQL. This project includes basic e-commerce features such as user registration and login, product listing, shopping cart, and database-driven content, designed as a simple and functional online store system.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                                              <span class="tag">JAVASCRIPT</span>
+                                <span class="tag">PHP</span>
+                                <span class="tag">SQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="http://www.eshopfatimanianstechnocrats.42web.io/" class="project-link" target="_blank">
+                                    <span class="link-icon">🔗</span> Live Demo
+                                </a>
+                                <a href="https://github.com/WinonaLaher2002/eshopfatimanianstechnocrats.git" class="project-link" target="_blank">
+                                    <span class="link-icon">💻</span> GitHub
+                                </a>
+                            </div>
+                        </div>
+
+                        <p style="margin-top: 30px; text-align: center; font-style: italic; color: #9e3b3b;">
+                            More projects coming soon! Follow my journey as I continue building and learning 🌱
+                        </p>
+                    </div>
+
+
+                    <!-- CONTACTS PAGE -->
+                    <div id="contacts" class="page">
+                        <h2>Contact Me</h2>
+                        <p class="contact-text">
+                            Let's work together or just say hi 💌 Feel free to send me a message below.
+                        </p>
+
+                        <form class="contact-form" id="contact-form">
+						
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" placeholder="Your message here..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="contact-btn">Send Message ✨</button>
+                        </form>
+
+                        <div style="margin-top: 40px; text-align: center; color: #9e3b3b;">
+                            <p style="font-size: 18px; margin-bottom: 10px;">
+                                📧 You can also reach me at: <strong>laherwinonab@gmail.com</strong>
+                            </p>
+                            <p style="font-size: 16px;">
+                                I usually respond within 24-48 hours 🌸
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+    (function(){
+        emailjs.init("S2ISh3nT7MULDKZCE");
+    })();
+</script>
+
+</body>
+</html>
